@@ -1,0 +1,5 @@
+MARKETING_ADD = "Cadastra no banco de dados um novo marketing para a o APP"
+MARKETING_LIST = "Retorna todos os marketings do banco de dados"
+MARKETING_GET = "Retorna um marketing do banco de dados pelo ID"
+MARKETING_GET_BY_ADDRESS = "Retorna um marketing do banco de dados pelo endereço que ele deve alcançar"
+MARKETING_DELETE = "Deleta um marketing do banco de dados"

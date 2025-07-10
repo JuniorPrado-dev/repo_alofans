@@ -1,18 +1,18 @@
 services:
-  alofans-api:
-    container_name: alofans-api
+  alofans-back:
+    container_name: alofans-back
     build:
-      context: ./alofans-api
+      context: ./alofans-back
       dockerfile: Dockerfile
     restart: always
     ports:
       - "5003:5000"
     volumes:
-      - ./alofans-api/alembic:/api/alembic
+      - ./alofans-back/alembic:/back/alembic
     depends_on:
       - alofans-database
     env_file:
-      - ./alofans-api/.env
+      - ./alofans-back/.env
   alofans-database:
     container_name: alofans-database
     build:
@@ -33,7 +33,7 @@ services:
     ports:
       - "8001:8001"
     depends_on:
-      - alofans-api
+      - alofans-back
     env_file:
       - ./alofans-webpush/.env
 

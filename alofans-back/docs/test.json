@@ -1,0 +1,136 @@
+{
+    "event": "OPENPIX:CHARGE_COMPLETED",
+    "charge": {
+      "customer": {
+        "name": "Mauricio Benjamin da Rocha",
+        "email": "mauriciobenjamin700@gmail.com",
+        "correlationID": "81e993cd-65eb-4f3d-9a25-82cc829a8ea6"
+      },
+      "value": 1000,
+      "comment": "dc240edc-d6b6-4f32-822b-40fbfd427984",
+      "identifier": "b61315fedd40472898b70998da532d39",
+      "correlationID": "1e03e153-002e-4d8b-bb65-9fe608a6ad51",
+      "transactionID": "b61315fedd40472898b70998da532d39",
+      "status": "COMPLETED",
+      "additionalInfo": [],
+      "fee": 50,
+      "discount": 0,
+      "valueWithDiscount": 1000,
+      "expiresDate": "2024-10-15T19:26:10.415Z",
+      "type": "DYNAMIC",
+      "paymentLinkID": "11fdf444-fd0a-41d6-9012-d265d6170fc3",
+      "createdAt": "2024-10-15T16:16:11.541Z",
+      "updatedAt": "2024-10-15T16:20:37.839Z",
+      "paidAt": "2024-10-15T16:20:37.000Z",
+      "payer": {
+        "name": "Mauricio Benjamin da Rocha",
+        "taxID": {
+          "taxID": "08329903370",
+          "type": "BR:CPF"
+        },
+        "correlationID": "7625c49a-f749-45e2-9a69-dfd23055b113"
+      },
+      "brCode": "00020101021226910014br.gov.bcb.pix2569qrcodes.fiduciascm.digital/v1/qr/ed6028eb-8482-4fd8-a532-e92bd5564d62520400005303986540510.005802BR5918AND_ALL_TECHNOLOGY6009Sao_Paulo62290525B61315FEDD40472898B70998D63041C54",
+      "splits": [
+        {
+          "value": 700,
+          "pixKey": "+55mauriciobenjamin700@gmailcom",
+          "splitType": "SPLIT_SUB_ACCOUNT",
+          "sourceAccount": "66be1dfe143fecb067b00b29"
+        }
+      ],
+      "expiresIn": 11399,
+      "pixKey": "e100f266-27fb-45ff-81f1-0edaf4567d4d",
+      "paymentLinkUrl": "https://openpix.com.br/pay/11fdf444-fd0a-41d6-9012-d265d6170fc3",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/11fdf444-fd0a-41d6-9012-d265d6170fc3.png",
+      "globalID": "Q2hhcmdlOjY3MGU5NTRiMzk5ZGFjMmQzMTk4YmIxYQ==",
+      "paymentMethods": {
+        "pix": {
+          "method": "PIX_COB",
+          "status": "COMPLETED",
+          "value": 1000,
+          "txId": "B61315FEDD40472898B70998DA532D39",
+          "fee": 50,
+          "brCode": "00020101021226910014br.gov.bcb.pix2569qrcodes.fiduciascm.digital/v1/qr/ed6028eb-8482-4fd8-a532-e92bd5564d62520400005303986540510.005802BR5918AND_ALL_TECHNOLOGY6009Sao_Paulo62290525B61315FEDD40472898B70998D63041C54",
+          "transactionID": "B61315FEDD40472898B70998DA532D39",
+          "identifier": "B61315FEDD40472898B70998DA532D39",
+          "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/11fdf444-fd0a-41d6-9012-d265d6170fc3.png"
+        }
+      }
+    },
+    "pix": {
+      "customer": {
+        "name": "Mauricio Benjamin da Rocha",
+        "email": "mauriciobenjamin700@gmail.com",
+        "correlationID": "81e993cd-65eb-4f3d-9a25-82cc829a8ea6"
+      },
+      "payer": {
+        "name": "Mauricio Benjamin da Rocha",
+        "taxID": {
+          "taxID": "08329903370",
+          "type": "BR:CPF"
+        },
+        "correlationID": "7625c49a-f749-45e2-9a69-dfd23055b113"
+      },
+      "charge": {
+        "customer": {
+          "name": "Mauricio Benjamin da Rocha",
+          "email": "mauriciobenjamin700@gmail.com",
+          "correlationID": "81e993cd-65eb-4f3d-9a25-82cc829a8ea6"
+        },
+        "value": 1000,
+        "comment": "dc240edc-d6b6-4f32-822b-40fbfd427984",
+        "identifier": "b61315fedd40472898b70998da532d39",
+        "correlationID": "1e03e153-002e-4d8b-bb65-9fe608a6ad51",
+        "transactionID": "b61315fedd40472898b70998da532d39",
+        "status": "COMPLETED",
+        "additionalInfo": [],
+        "fee": 50,
+        "discount": 0,
+        "valueWithDiscount": 1000,
+        "expiresDate": "2024-10-15T19:26:10.415Z",
+        "type": "DYNAMIC",
+        "paymentLinkID": "11fdf444-fd0a-41d6-9012-d265d6170fc3",
+        "createdAt": "2024-10-15T16:16:11.541Z",
+        "updatedAt": "2024-10-15T16:20:37.839Z",
+        "paidAt": "2024-10-15T16:20:37.000Z",
+        "payer": {
+          "name": "Mauricio Benjamin da Rocha",
+          "taxID": {
+            "taxID": "08329903370",
+            "type": "BR:CPF"
+          },
+          "correlationID": "7625c49a-f749-45e2-9a69-dfd23055b113"
+        },
+        "brCode": "00020101021226910014br.gov.bcb.pix2569qrcodes.fiduciascm.digital/v1/qr/ed6028eb-8482-4fd8-a532-e92bd5564d62520400005303986540510.005802BR5918AND_ALL_TECHNOLOGY6009Sao_Paulo62290525B61315FEDD40472898B70998D63041C54",
+        "splits": [
+          {
+            "value": 700,
+            "pixKey": "+55mauriciobenjamin700@gmailcom",
+            "splitType": "SPLIT_SUB_ACCOUNT",
+            "sourceAccount": "66be1dfe143fecb067b00b29"
+          }
+        ],
+        "expiresIn": 11399,
+        "pixKey": "e100f266-27fb-45ff-81f1-0edaf4567d4d",
+        "paymentLinkUrl": "https://openpix.com.br/pay/11fdf444-fd0a-41d6-9012-d265d6170fc3",
+        "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/11fdf444-fd0a-41d6-9012-d265d6170fc3.png",
+        "globalID": "Q2hhcmdlOjY3MGU5NTRiMzk5ZGFjMmQzMTk4YmIxYQ=="
+      },
+      "value": 1000,
+      "time": "2024-10-15T16:20:37.000Z",
+      "endToEndId": "E10573521202410151620O93UWVm6kKZ",
+      "transactionID": "B61315FEDD40472898B70998DA532D39",
+      "infoPagador": "ANDALLTECHNOL",
+      "type": "PAYMENT",
+      "createdAt": "2024-10-15T16:20:37.804Z",
+      "globalID": "UGl4VHJhbnNhY3Rpb246NjcwZTk2NTVmZjY1NjQ3NmM1NDAwYWNl"
+    },
+    "company": {
+      "id": "66b9f810d2109b461c36c7c4",
+      "name": "And All Technology",
+      "taxID": "55716493000152"
+    },
+    "account": {}
+  }
+  

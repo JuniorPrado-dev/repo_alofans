@@ -1,0 +1,7 @@
+PAYMENT_ADD = "Salva o alô no banco de dados e envia para o gateway de pagamento uma solicitação de cobrança pelo alo"
+PAYMENT_GET = "Busca uma cobrança no gateway de pagamento"
+PAYMENT_DELETE = "Deleta uma cobrança do gateway de pagamento"
+PAYMENT_WITHDRAW = "Realiza um saque para a conta bancária do recebedor dado sua chave pix (id)"
+PAYMENT_CONFIRM = "Webhook para confirma o pagamento de um Alo"
+PAYMENT_EXPIRED = "Webhook para remover um Alô expirado"
+PAYMENT_SUBACCOUNT = "Retorna os dados de uma subconta de um usuário" 

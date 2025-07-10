@@ -1,0 +1,1 @@
+ERROR_PIX_KEY_TYPE_INVALID = "Tipo de chave PIX inválida"

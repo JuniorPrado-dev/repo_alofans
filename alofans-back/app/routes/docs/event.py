@@ -1,0 +1,6 @@
+EVENT_ADD = "Cadastra um evento no banco de dados"
+EVENT_GET = "Busca um evento no banco de dados através de seu ID"
+EVENT_LIST = "Lista todos os eventos válidos (Eventos que irão acontecer ou que estão acontecendo)"
+EVENT_LIST_ALL = "Lista todos os eventos, independente de sua data de inicio"
+EVENT_UPDATE = "Atualiza os dados de um evento salvo no banco de dados"
+EVENT_DELETE = "Deleta um evento no banco de dados através de seu ID"
