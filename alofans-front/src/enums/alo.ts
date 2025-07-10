@@ -1,0 +1,7 @@
+export enum EnumAloStatus {
+    PAYMENT = "AGUARDANDO_PAGAMENTO",
+    WAITING = "AGUARDANDO",
+    APPROVED = "APROVADO",
+    FINISHED = "FINALIZADO",
+    REJECTED = "REJEITADO"
+}
