@@ -10,19 +10,19 @@ services:
     volumes:
       - ./alofans-api/alembic:/api/alembic
     depends_on:
-      - alofans-db
+      - alofans-database
     env_file:
       - ./alofans-api/.env
-  alofans-db:
-    container_name: alofans-db
+  alofans-database:
+    container_name: alofans-database
     build:
-      context: ./alofans-db
+      context: ./alofans-database
       dockerfile: Dockerfile
     ports:
       - "5433:5432"
     volumes:
       -  db_volume:/var/lib/postgresql/data
-      - ./alofans-db/backups:/backups
+      - ./alofans-database/backups:/backups
     restart: always
   alofans-webpush:
     container_name: alofans-webpush
